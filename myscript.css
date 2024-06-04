@@ -1,0 +1,146 @@
+/* Reset and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-left: 20px;
+}
+
+#searchInput {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+#searchButton {
+    padding: 8px 12px;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+
+
+/* NavBar */
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.featured-products {
+    margin-top: 40px;
+}
+
+.about-content {
+    margin-top: 40px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Footer styles */
+.footer-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-style {
+    font-size: 14px;
+}
+
+
+/* Add your other CSS rules here */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Adjust as needed */
+    gap: 20px; /* Add gap between cards */
+}
+
+.product-card {
+    width: 200px;
+    margin-bottom: 20px; /* Add margin to separate cards */
+    /* Other styles remain the same */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.quantity-picker {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.quantity-picker input {
+    width: 40px;
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
